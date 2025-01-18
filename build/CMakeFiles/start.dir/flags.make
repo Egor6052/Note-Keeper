@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/admin1/Стільниця/Text Keeper/./lib"
+CXX_INCLUDES = -I/home/admin1/Стільниця/Note-Keeper/./lib
 
 CXX_FLAGS = -Wall -fPIC
 

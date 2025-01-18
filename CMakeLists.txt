@@ -13,6 +13,7 @@ message(STATUS "Compile with static library? ${USE_STATIC}")
 # Шлях до вихідних файлів
 set(SOURCE_FILES
     ./src/User/UserDB.cpp
+    ./src/User/CreatePostgresUser.cpp
     ./src/Note/Note.cpp
     ./src/Note/CreateTable.cpp
     ./src/Note/DateTime.cpp

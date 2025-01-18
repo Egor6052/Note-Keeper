@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/admin1/Стільниця/Text Keeper"
+CMAKE_SOURCE_DIR = /home/admin1/Стільниця/Note-Keeper
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/admin1/Стільниця/Text Keeper/build"
+CMAKE_BINARY_DIR = /home/admin1/Стільниця/Note-Keeper/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/start.dir/depend.make
@@ -70,79 +70,94 @@ include CMakeFiles/start.dir/progress.make
 include CMakeFiles/start.dir/flags.make
 
 CMakeFiles/start.dir/src/main.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/src/main.cpp.o: /home/admin1/Стільниця/Text\ Keeper/src/main.cpp
+CMakeFiles/start.dir/src/main.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/main.cpp
 CMakeFiles/start.dir/src/main.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/admin1/Стільниця/Text Keeper/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/main.cpp.o -MF CMakeFiles/start.dir/src/main.cpp.o.d -o CMakeFiles/start.dir/src/main.cpp.o -c "/home/admin1/Стільниця/Text Keeper/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/main.cpp.o -MF CMakeFiles/start.dir/src/main.cpp.o.d -o CMakeFiles/start.dir/src/main.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/main.cpp
 
 CMakeFiles/start.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin1/Стільниця/Text Keeper/src/main.cpp" > CMakeFiles/start.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/Note-Keeper/src/main.cpp > CMakeFiles/start.dir/src/main.cpp.i
 
 CMakeFiles/start.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin1/Стільниця/Text Keeper/src/main.cpp" -o CMakeFiles/start.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/Note-Keeper/src/main.cpp -o CMakeFiles/start.dir/src/main.cpp.s
 
 CMakeFiles/start.dir/src/User/UserDB.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/src/User/UserDB.cpp.o: /home/admin1/Стільниця/Text\ Keeper/src/User/UserDB.cpp
+CMakeFiles/start.dir/src/User/UserDB.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/User/UserDB.cpp
 CMakeFiles/start.dir/src/User/UserDB.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/admin1/Стільниця/Text Keeper/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/start.dir/src/User/UserDB.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/User/UserDB.cpp.o -MF CMakeFiles/start.dir/src/User/UserDB.cpp.o.d -o CMakeFiles/start.dir/src/User/UserDB.cpp.o -c "/home/admin1/Стільниця/Text Keeper/src/User/UserDB.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/start.dir/src/User/UserDB.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/User/UserDB.cpp.o -MF CMakeFiles/start.dir/src/User/UserDB.cpp.o.d -o CMakeFiles/start.dir/src/User/UserDB.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/User/UserDB.cpp
 
 CMakeFiles/start.dir/src/User/UserDB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/src/User/UserDB.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin1/Стільниця/Text Keeper/src/User/UserDB.cpp" > CMakeFiles/start.dir/src/User/UserDB.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/Note-Keeper/src/User/UserDB.cpp > CMakeFiles/start.dir/src/User/UserDB.cpp.i
 
 CMakeFiles/start.dir/src/User/UserDB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/User/UserDB.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin1/Стільниця/Text Keeper/src/User/UserDB.cpp" -o CMakeFiles/start.dir/src/User/UserDB.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/Note-Keeper/src/User/UserDB.cpp -o CMakeFiles/start.dir/src/User/UserDB.cpp.s
+
+CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/User/CreatePostgresUser.cpp
+CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o -MF CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o.d -o CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/User/CreatePostgresUser.cpp
+
+CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/Note-Keeper/src/User/CreatePostgresUser.cpp > CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.i
+
+CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/Note-Keeper/src/User/CreatePostgresUser.cpp -o CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.s
 
 CMakeFiles/start.dir/src/Note/Note.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/src/Note/Note.cpp.o: /home/admin1/Стільниця/Text\ Keeper/src/Note/Note.cpp
+CMakeFiles/start.dir/src/Note/Note.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/Note/Note.cpp
 CMakeFiles/start.dir/src/Note/Note.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/admin1/Стільниця/Text Keeper/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/start.dir/src/Note/Note.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/Note.cpp.o -MF CMakeFiles/start.dir/src/Note/Note.cpp.o.d -o CMakeFiles/start.dir/src/Note/Note.cpp.o -c "/home/admin1/Стільниця/Text Keeper/src/Note/Note.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/start.dir/src/Note/Note.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/Note.cpp.o -MF CMakeFiles/start.dir/src/Note/Note.cpp.o.d -o CMakeFiles/start.dir/src/Note/Note.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/Note/Note.cpp
 
 CMakeFiles/start.dir/src/Note/Note.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Note/Note.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin1/Стільниця/Text Keeper/src/Note/Note.cpp" > CMakeFiles/start.dir/src/Note/Note.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/Note-Keeper/src/Note/Note.cpp > CMakeFiles/start.dir/src/Note/Note.cpp.i
 
 CMakeFiles/start.dir/src/Note/Note.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Note/Note.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin1/Стільниця/Text Keeper/src/Note/Note.cpp" -o CMakeFiles/start.dir/src/Note/Note.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/Note-Keeper/src/Note/Note.cpp -o CMakeFiles/start.dir/src/Note/Note.cpp.s
 
 CMakeFiles/start.dir/src/Note/CreateTable.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/src/Note/CreateTable.cpp.o: /home/admin1/Стільниця/Text\ Keeper/src/Note/CreateTable.cpp
+CMakeFiles/start.dir/src/Note/CreateTable.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/Note/CreateTable.cpp
 CMakeFiles/start.dir/src/Note/CreateTable.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/admin1/Стільниця/Text Keeper/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/start.dir/src/Note/CreateTable.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/CreateTable.cpp.o -MF CMakeFiles/start.dir/src/Note/CreateTable.cpp.o.d -o CMakeFiles/start.dir/src/Note/CreateTable.cpp.o -c "/home/admin1/Стільниця/Text Keeper/src/Note/CreateTable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/start.dir/src/Note/CreateTable.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/CreateTable.cpp.o -MF CMakeFiles/start.dir/src/Note/CreateTable.cpp.o.d -o CMakeFiles/start.dir/src/Note/CreateTable.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/Note/CreateTable.cpp
 
 CMakeFiles/start.dir/src/Note/CreateTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Note/CreateTable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin1/Стільниця/Text Keeper/src/Note/CreateTable.cpp" > CMakeFiles/start.dir/src/Note/CreateTable.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/Note-Keeper/src/Note/CreateTable.cpp > CMakeFiles/start.dir/src/Note/CreateTable.cpp.i
 
 CMakeFiles/start.dir/src/Note/CreateTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Note/CreateTable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin1/Стільниця/Text Keeper/src/Note/CreateTable.cpp" -o CMakeFiles/start.dir/src/Note/CreateTable.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/Note-Keeper/src/Note/CreateTable.cpp -o CMakeFiles/start.dir/src/Note/CreateTable.cpp.s
 
 CMakeFiles/start.dir/src/Note/DateTime.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/src/Note/DateTime.cpp.o: /home/admin1/Стільниця/Text\ Keeper/src/Note/DateTime.cpp
+CMakeFiles/start.dir/src/Note/DateTime.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/Note/DateTime.cpp
 CMakeFiles/start.dir/src/Note/DateTime.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/admin1/Стільниця/Text Keeper/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/start.dir/src/Note/DateTime.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/DateTime.cpp.o -MF CMakeFiles/start.dir/src/Note/DateTime.cpp.o.d -o CMakeFiles/start.dir/src/Note/DateTime.cpp.o -c "/home/admin1/Стільниця/Text Keeper/src/Note/DateTime.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/start.dir/src/Note/DateTime.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/DateTime.cpp.o -MF CMakeFiles/start.dir/src/Note/DateTime.cpp.o.d -o CMakeFiles/start.dir/src/Note/DateTime.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/Note/DateTime.cpp
 
 CMakeFiles/start.dir/src/Note/DateTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Note/DateTime.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin1/Стільниця/Text Keeper/src/Note/DateTime.cpp" > CMakeFiles/start.dir/src/Note/DateTime.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/Note-Keeper/src/Note/DateTime.cpp > CMakeFiles/start.dir/src/Note/DateTime.cpp.i
 
 CMakeFiles/start.dir/src/Note/DateTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Note/DateTime.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin1/Стільниця/Text Keeper/src/Note/DateTime.cpp" -o CMakeFiles/start.dir/src/Note/DateTime.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/Note-Keeper/src/Note/DateTime.cpp -o CMakeFiles/start.dir/src/Note/DateTime.cpp.s
 
 # Object files for target start
 start_OBJECTS = \
 "CMakeFiles/start.dir/src/main.cpp.o" \
 "CMakeFiles/start.dir/src/User/UserDB.cpp.o" \
+"CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o" \
 "CMakeFiles/start.dir/src/Note/Note.cpp.o" \
 "CMakeFiles/start.dir/src/Note/CreateTable.cpp.o" \
 "CMakeFiles/start.dir/src/Note/DateTime.cpp.o"
@@ -152,12 +167,13 @@ start_EXTERNAL_OBJECTS =
 
 start: CMakeFiles/start.dir/src/main.cpp.o
 start: CMakeFiles/start.dir/src/User/UserDB.cpp.o
+start: CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o
 start: CMakeFiles/start.dir/src/Note/Note.cpp.o
 start: CMakeFiles/start.dir/src/Note/CreateTable.cpp.o
 start: CMakeFiles/start.dir/src/Note/DateTime.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: CMakeFiles/start.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/admin1/Стільниця/Text Keeper/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable start"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/start.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +185,6 @@ CMakeFiles/start.dir/clean:
 .PHONY : CMakeFiles/start.dir/clean
 
 CMakeFiles/start.dir/depend:
-	cd "/home/admin1/Стільниця/Text Keeper/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/admin1/Стільниця/Text Keeper" "/home/admin1/Стільниця/Text Keeper" "/home/admin1/Стільниця/Text Keeper/build" "/home/admin1/Стільниця/Text Keeper/build" "/home/admin1/Стільниця/Text Keeper/build/CMakeFiles/start.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/admin1/Стільниця/Note-Keeper/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin1/Стільниця/Note-Keeper /home/admin1/Стільниця/Note-Keeper /home/admin1/Стільниця/Note-Keeper/build /home/admin1/Стільниця/Note-Keeper/build /home/admin1/Стільниця/Note-Keeper/build/CMakeFiles/start.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/start.dir/depend
 

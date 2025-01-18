@@ -4,44 +4,25 @@
 #include "../../lib/UserDB.h"
 
 UserDB::UserDB(){
-    this->name = "";
-    this->password = "";
+    this->name = "notekeeper";
+    this->password = "psql";
 }
 UserDB::~UserDB(){
 
 }
 void UserDB::setName(std::string valueName){
-    this->name = valueName;
-}
-void UserDB::setPassword(std::string valuePassword){
-    this->password = valuePassword;
-}
-
-void UserDB::createPostgresUser(const std::string& adminPassword) {
-    try {
-        // Підключення до бази даних під адміністратором
-        std::string connectionString = "dbname=postgres user=postgres password=" + adminPassword + " host=localhost";
-
-        pqxx::connection conn(connectionString);
-
-        if (!conn.is_open()) {
-            throw std::runtime_error("Failed to connect to the database!");
-        }
-
-        std::cout << "Connected to the database successfully!" << std::endl;
-
-        // Створення нового користувача
-        pqxx::work txn(conn);
-        std::string createUserQuery = "CREATE USER " + name + " WITH PASSWORD '" + password + "';";
-        txn.exec(createUserQuery);
-
-        txn.commit();
-        std::cout << "User '" << name << "' created successfully!" << std::endl;
-    } catch (const std::exception& e) {
-        std::cerr << "Error: " << e.what() << '\n';
+    if (valueName == ""){
+        std::cerr << "\033[32mError: Name must not be null!\033[0m" << "\n";
+    } else {
+        this->name = valueName;
     }
 }
-
+void UserDB::setPassword(std::string valuePassword){
+    if (valuePassword == "") {
+        std::cerr << "\033[32mError: Password must not be null!\033[0m" << "\n";
+    }
+    this->password = valuePassword;
+}
 
 std::string UserDB::getUserPassword(){
     return this->password;

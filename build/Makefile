@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/admin1/Стільниця/Text Keeper"
+CMAKE_SOURCE_DIR = /home/admin1/Стільниця/Note-Keeper
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/admin1/Стільниця/Text Keeper/build"
+CMAKE_BINARY_DIR = /home/admin1/Стільниця/Note-Keeper/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/admin1/Стільниця/Text Keeper/build/CMakeFiles" "/home/admin1/Стільниця/Text Keeper/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Стільниця/Note-Keeper/build/CMakeFiles /home/admin1/Стільниця/Note-Keeper/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/admin1/Стільниця/Text Keeper/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Стільниця/Note-Keeper/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -201,6 +201,30 @@ src/Note/Note.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Note/Note.cpp.s
 .PHONY : src/Note/Note.cpp.s
 
+src/User/CreatePostgresUser.o: src/User/CreatePostgresUser.cpp.o
+.PHONY : src/User/CreatePostgresUser.o
+
+# target to build an object file
+src/User/CreatePostgresUser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o
+.PHONY : src/User/CreatePostgresUser.cpp.o
+
+src/User/CreatePostgresUser.i: src/User/CreatePostgresUser.cpp.i
+.PHONY : src/User/CreatePostgresUser.i
+
+# target to preprocess a source file
+src/User/CreatePostgresUser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.i
+.PHONY : src/User/CreatePostgresUser.cpp.i
+
+src/User/CreatePostgresUser.s: src/User/CreatePostgresUser.cpp.s
+.PHONY : src/User/CreatePostgresUser.s
+
+# target to generate assembly for a file
+src/User/CreatePostgresUser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.s
+.PHONY : src/User/CreatePostgresUser.cpp.s
+
 src/User/UserDB.o: src/User/UserDB.cpp.o
 .PHONY : src/User/UserDB.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... src/Note/Note.o"
 	@echo "... src/Note/Note.i"
 	@echo "... src/Note/Note.s"
+	@echo "... src/User/CreatePostgresUser.o"
+	@echo "... src/User/CreatePostgresUser.i"
+	@echo "... src/User/CreatePostgresUser.s"
 	@echo "... src/User/UserDB.o"
 	@echo "... src/User/UserDB.i"
 	@echo "... src/User/UserDB.s"

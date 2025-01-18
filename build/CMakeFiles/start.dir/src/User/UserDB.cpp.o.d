@@ -1,5 +1,5 @@
 CMakeFiles/start.dir/src/User/UserDB.cpp.o: \
- /home/admin1/Стільниця/Text\ Keeper/src/User/UserDB.cpp \
+ /home/admin1/Стільниця/Note-Keeper/src/User/UserDB.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
@@ -234,4 +234,4 @@ CMakeFiles/start.dir/src/User/UserDB.cpp.o: \
  /usr/include/pqxx/subtransaction.hxx /usr/include/pqxx/time.hxx \
  /usr/include/c++/14/chrono /usr/include/pqxx/transactor.hxx \
  /usr/include/pqxx/internal/header-post.hxx \
- /home/admin1/Стільниця/Text\ Keeper/src/User/../../lib/UserDB.h
+ /home/admin1/Стільниця/Note-Keeper/src/User/../../lib/UserDB.h
