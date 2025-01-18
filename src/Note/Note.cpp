@@ -15,14 +15,12 @@ void Note::setMessage(std::string valueMessage){
     this->data = getCurrentDateTime();
     this->content = valueMessage;
     
-    // Connection to DB
         pqxx::connection conn("dbname=postgres user=" + getUserName() + " password=" + getUserPassword() + " host=localhost");
 
         if (!conn.is_open()) {
             throw std::runtime_error("Failed to connect to database!");
         }
 
-        // Executing an SQL query to insert data
         pqxx::work txn(conn);
         txn.exec(
             "INSERT INTO public.notes (date, message) VALUES ('" + data + "', '" + txn.esc(content) + "');"
@@ -39,7 +37,6 @@ void Note::setMessage(std::string valueMessage){
 
 std::string Note::getNote() {
     try {
-        // Підключення до бази даних
         pqxx::connection conn("dbname=postgres user=" + getUserName() + " password=" + getUserPassword() + " host=localhost");
 
         if (!conn.is_open()) {
@@ -73,7 +70,6 @@ std::string Note::getNote() {
 
 void Note::deleteMessage(std::string valueID) {
     try {
-        // Підключення до бази даних
         pqxx::connection conn("dbname=postgres user=" + getUserName() + " password=" + getUserPassword() + " host=localhost");
 
         if (!conn.is_open()) {
@@ -85,7 +81,6 @@ void Note::deleteMessage(std::string valueID) {
         std::string deleteQuery = "DELETE FROM public.notes WHERE id = " + valueID + ";";
         txn.exec(deleteQuery);
 
-        // Завершення транзакції
         txn.commit();
         std::cout << "\033[36mNote with ID " << valueID << " deleted successfully.\033[0m" << std::endl;
     } catch (const std::exception& e) {
