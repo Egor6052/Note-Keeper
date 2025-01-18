@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/start.dir/src/main.cpp.o CMakeFiles/start.dir/src/User/UserDB.cpp.o CMakeFiles/start.dir/src/Note/Note.cpp.o CMakeFiles/start.dir/src/Note/CreateTable.cpp.o CMakeFiles/start.dir/src/Note/DateTime.cpp.o -o start  -lpqxx
