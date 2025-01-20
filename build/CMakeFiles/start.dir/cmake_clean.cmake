@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o"
+  "CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o.d"
   "CMakeFiles/start.dir/src/Note/CreateTable.cpp.o"
   "CMakeFiles/start.dir/src/Note/CreateTable.cpp.o.d"
   "CMakeFiles/start.dir/src/Note/DateTime.cpp.o"

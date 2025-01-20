@@ -57,7 +57,7 @@ std::string Note::getNote() {
             std::string noteID = row["id"].as<std::string>();
             std::string noteDate = row["date"].as<std::string>();
             std::string noteMessage = row["message"].as<std::string>();
-            allNotes += "\033[35mid: \033[0m" + noteID + " |\033[37m " + noteDate + " \033[0m| message: " + noteMessage + "\n";
+            allNotes += "\033[35mid: \033[0m" + noteID + " |\033[37m " + noteDate + " \033[0m|\n   " + noteMessage + "\n\n";
         }
         return allNotes;
 

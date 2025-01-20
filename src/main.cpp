@@ -14,9 +14,9 @@ int main(){
     std::string message;
     do {
         std::string message, menu, answer;
-        menu = "|\033[37m Create note - 1 \033[0m|  |\033[37m Delete note - 2 \033[0m|   |\033[37m View table - 3 \033[0m|";
+        menu = "|\033[37m Create note - 1 \033[0m|  |\033[37m Delete note - 2 \033[0m|   |\033[37m View table - 3 \033[0m|   |\033[37m Create backup - 4 \033[0m|";
 
-        std::string horizontalLine(menu.length()-27, '-');
+        std::string horizontalLine(menu.length()-36, '-');
         std::cout << horizontalLine << "\n" << menu << "\n" << horizontalLine << std::endl;
         
 
@@ -38,6 +38,8 @@ int main(){
             std::cout << note.getNote() << std::endl;
         } else if (answer == "3"){
             std::cout << note.getNote() << std::endl;
+        } else if (answer == "4"){
+            note.createBackup();
         }
     } while (true);
 

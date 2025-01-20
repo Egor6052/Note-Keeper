@@ -20,6 +20,7 @@ class Note : public UserDB{
         void CreateTable();
         void setMessage(std::string valueMessage);
         void deleteMessage(std::string valueID);
+        void createBackup();
         std::string getNote();
 };
 

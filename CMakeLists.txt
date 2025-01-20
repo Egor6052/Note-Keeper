@@ -15,6 +15,7 @@ set(SOURCE_FILES
     ./src/User/UserDB.cpp
     ./src/User/CreatePostgresUser.cpp
     ./src/Note/Note.cpp
+    ./src/Note/CreateBackup.cpp
     ./src/Note/CreateTable.cpp
     ./src/Note/DateTime.cpp
 )

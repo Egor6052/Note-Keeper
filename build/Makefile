@@ -129,6 +129,30 @@ start/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
+src/Note/CreateBackup.o: src/Note/CreateBackup.cpp.o
+.PHONY : src/Note/CreateBackup.o
+
+# target to build an object file
+src/Note/CreateBackup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o
+.PHONY : src/Note/CreateBackup.cpp.o
+
+src/Note/CreateBackup.i: src/Note/CreateBackup.cpp.i
+.PHONY : src/Note/CreateBackup.i
+
+# target to preprocess a source file
+src/Note/CreateBackup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Note/CreateBackup.cpp.i
+.PHONY : src/Note/CreateBackup.cpp.i
+
+src/Note/CreateBackup.s: src/Note/CreateBackup.cpp.s
+.PHONY : src/Note/CreateBackup.s
+
+# target to generate assembly for a file
+src/Note/CreateBackup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Note/CreateBackup.cpp.s
+.PHONY : src/Note/CreateBackup.cpp.s
+
 src/Note/CreateTable.o: src/Note/CreateTable.cpp.o
 .PHONY : src/Note/CreateTable.o
 
@@ -282,6 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... start"
+	@echo "... src/Note/CreateBackup.o"
+	@echo "... src/Note/CreateBackup.i"
+	@echo "... src/Note/CreateBackup.s"
 	@echo "... src/Note/CreateTable.o"
 	@echo "... src/Note/CreateTable.i"
 	@echo "... src/Note/CreateTable.s"

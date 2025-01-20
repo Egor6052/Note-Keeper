@@ -125,10 +125,24 @@ CMakeFiles/start.dir/src/Note/Note.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Note/Note.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/Note-Keeper/src/Note/Note.cpp -o CMakeFiles/start.dir/src/Note/Note.cpp.s
 
+CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/Note/CreateBackup.cpp
+CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o -MF CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o.d -o CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/Note/CreateBackup.cpp
+
+CMakeFiles/start.dir/src/Note/CreateBackup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Note/CreateBackup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/Note-Keeper/src/Note/CreateBackup.cpp > CMakeFiles/start.dir/src/Note/CreateBackup.cpp.i
+
+CMakeFiles/start.dir/src/Note/CreateBackup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Note/CreateBackup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/Note-Keeper/src/Note/CreateBackup.cpp -o CMakeFiles/start.dir/src/Note/CreateBackup.cpp.s
+
 CMakeFiles/start.dir/src/Note/CreateTable.cpp.o: CMakeFiles/start.dir/flags.make
 CMakeFiles/start.dir/src/Note/CreateTable.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/Note/CreateTable.cpp
 CMakeFiles/start.dir/src/Note/CreateTable.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/start.dir/src/Note/CreateTable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/start.dir/src/Note/CreateTable.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/CreateTable.cpp.o -MF CMakeFiles/start.dir/src/Note/CreateTable.cpp.o.d -o CMakeFiles/start.dir/src/Note/CreateTable.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/Note/CreateTable.cpp
 
 CMakeFiles/start.dir/src/Note/CreateTable.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/start.dir/src/Note/CreateTable.cpp.s: cmake_force
 CMakeFiles/start.dir/src/Note/DateTime.cpp.o: CMakeFiles/start.dir/flags.make
 CMakeFiles/start.dir/src/Note/DateTime.cpp.o: /home/admin1/Стільниця/Note-Keeper/src/Note/DateTime.cpp
 CMakeFiles/start.dir/src/Note/DateTime.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/start.dir/src/Note/DateTime.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/start.dir/src/Note/DateTime.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Note/DateTime.cpp.o -MF CMakeFiles/start.dir/src/Note/DateTime.cpp.o.d -o CMakeFiles/start.dir/src/Note/DateTime.cpp.o -c /home/admin1/Стільниця/Note-Keeper/src/Note/DateTime.cpp
 
 CMakeFiles/start.dir/src/Note/DateTime.cpp.i: cmake_force
@@ -159,6 +173,7 @@ start_OBJECTS = \
 "CMakeFiles/start.dir/src/User/UserDB.cpp.o" \
 "CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o" \
 "CMakeFiles/start.dir/src/Note/Note.cpp.o" \
+"CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o" \
 "CMakeFiles/start.dir/src/Note/CreateTable.cpp.o" \
 "CMakeFiles/start.dir/src/Note/DateTime.cpp.o"
 
@@ -169,11 +184,12 @@ start: CMakeFiles/start.dir/src/main.cpp.o
 start: CMakeFiles/start.dir/src/User/UserDB.cpp.o
 start: CMakeFiles/start.dir/src/User/CreatePostgresUser.cpp.o
 start: CMakeFiles/start.dir/src/Note/Note.cpp.o
+start: CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o
 start: CMakeFiles/start.dir/src/Note/CreateTable.cpp.o
 start: CMakeFiles/start.dir/src/Note/DateTime.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: CMakeFiles/start.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/admin1/Стільниця/Note-Keeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable start"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/start.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
