@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Note Keeper
+Exec=/home/admin1/Стільниця/Note-Keeper/build/start
+Icon=/home/admin1/Стільниця/Note-Keeper/build/icon.png
+Terminal=true
+Type=Application
+Categories=Utility

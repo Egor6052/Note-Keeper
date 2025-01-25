@@ -6,6 +6,7 @@
 
 void Note::CreateTable() {
     try {
+        // Підключення до бази даних
         std::string connectionString = "dbname=postgres user=" + getUserName() + " password=" + getUserPassword() + " host=localhost";
 
         pqxx::connection conn(connectionString);
