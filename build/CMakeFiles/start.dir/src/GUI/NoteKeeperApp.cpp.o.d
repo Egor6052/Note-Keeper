@@ -1,5 +1,5 @@
-CMakeFiles/start.dir/src/main.cpp.o: \
- /home/admin1/Стільниця/Note-Keeper/src/main.cpp \
+CMakeFiles/start.dir/src/GUI/NoteKeeperApp.cpp.o: \
+ /home/admin1/Стільниця/Note-Keeper/src/GUI/NoteKeeperApp.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
@@ -128,12 +128,9 @@ CMakeFiles/start.dir/src/main.cpp.o: \
  /usr/include/c++/14/bits/locale_facets.tcc \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
- /usr/include/c++/14/bits/istream.tcc \
- /home/admin1/Стільниця/Note-Keeper/src/../lib/NoteKeeperApp.h \
- /usr/include/string.h /usr/include/strings.h \
- /home/admin1/Стільниця/Note-Keeper/src/../lib/Note.h \
- /home/admin1/Стільниця/Note-Keeper/src/../lib/UserDB.h \
- /usr/include/gtkmm-3.0/gtkmm.h /usr/include/glibmm-2.4/glibmm.h \
+ /usr/include/c++/14/bits/istream.tcc /usr/include/string.h \
+ /usr/include/strings.h /usr/include/gtkmm-3.0/gtkmm.h \
+ /usr/include/glibmm-2.4/glibmm.h \
  /usr/lib64/glibmm-2.4/include/glibmmconfig.h \
  /usr/include/glibmm-2.4/glibmm/thread.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
@@ -1451,4 +1448,7 @@ CMakeFiles/start.dir/src/main.cpp.o: \
  /usr/include/gtkmm-3.0/gtkmm/treestore.h \
  /usr/include/gtkmm-3.0/gtkmm/uimanager.h \
  /usr/include/gtkmm-3.0/gtkmm/viewport.h \
- /usr/include/gtkmm-3.0/gtkmm/volumebutton.h
+ /usr/include/gtkmm-3.0/gtkmm/volumebutton.h \
+ /home/admin1/Стільниця/Note-Keeper/src/GUI/../../lib/NoteKeeperApp.h \
+ /home/admin1/Стільниця/Note-Keeper/src/GUI/../../lib/Note.h \
+ /home/admin1/Стільниця/Note-Keeper/src/GUI/../../lib/UserDB.h

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/admin1/Стільниця/Note-Keeper/src/GUI/NoteKeeperApp.cpp" "CMakeFiles/start.dir/src/GUI/NoteKeeperApp.cpp.o" "gcc" "CMakeFiles/start.dir/src/GUI/NoteKeeperApp.cpp.o.d"
   "/home/admin1/Стільниця/Note-Keeper/src/Note/CreateBackup.cpp" "CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o" "gcc" "CMakeFiles/start.dir/src/Note/CreateBackup.cpp.o.d"
   "/home/admin1/Стільниця/Note-Keeper/src/Note/CreateTable.cpp" "CMakeFiles/start.dir/src/Note/CreateTable.cpp.o" "gcc" "CMakeFiles/start.dir/src/Note/CreateTable.cpp.o.d"
   "/home/admin1/Стільниця/Note-Keeper/src/Note/DateTime.cpp" "CMakeFiles/start.dir/src/Note/DateTime.cpp.o" "gcc" "CMakeFiles/start.dir/src/Note/DateTime.cpp.o.d"

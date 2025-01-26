@@ -129,6 +129,30 @@ start/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
+src/GUI/NoteKeeperApp.o: src/GUI/NoteKeeperApp.cpp.o
+.PHONY : src/GUI/NoteKeeperApp.o
+
+# target to build an object file
+src/GUI/NoteKeeperApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/GUI/NoteKeeperApp.cpp.o
+.PHONY : src/GUI/NoteKeeperApp.cpp.o
+
+src/GUI/NoteKeeperApp.i: src/GUI/NoteKeeperApp.cpp.i
+.PHONY : src/GUI/NoteKeeperApp.i
+
+# target to preprocess a source file
+src/GUI/NoteKeeperApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/GUI/NoteKeeperApp.cpp.i
+.PHONY : src/GUI/NoteKeeperApp.cpp.i
+
+src/GUI/NoteKeeperApp.s: src/GUI/NoteKeeperApp.cpp.s
+.PHONY : src/GUI/NoteKeeperApp.s
+
+# target to generate assembly for a file
+src/GUI/NoteKeeperApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/GUI/NoteKeeperApp.cpp.s
+.PHONY : src/GUI/NoteKeeperApp.cpp.s
+
 src/Note/CreateBackup.o: src/Note/CreateBackup.cpp.o
 .PHONY : src/Note/CreateBackup.o
 
@@ -306,6 +330,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... start"
+	@echo "... src/GUI/NoteKeeperApp.o"
+	@echo "... src/GUI/NoteKeeperApp.i"
+	@echo "... src/GUI/NoteKeeperApp.s"
 	@echo "... src/Note/CreateBackup.o"
 	@echo "... src/Note/CreateBackup.i"
 	@echo "... src/Note/CreateBackup.s"
